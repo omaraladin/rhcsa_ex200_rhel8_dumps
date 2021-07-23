@@ -5,7 +5,7 @@ dnf install httpd
 systemctl enable --now httpd
 
 #Create a VirtualHost for the Domain and include the default Index Page path
-<VirtualHost >
+<VirtualHost MACHINE_IP:80>
 	ServerName station1.marry.com
 	DocumentRoot /var/www/marry.com
 <VirtualHost/>
