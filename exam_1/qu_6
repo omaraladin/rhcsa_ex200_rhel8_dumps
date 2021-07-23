@@ -1,0 +1,2 @@
+Install a FTP server, and request to anonymous download from /var/ftp/pub catalog.
+(it needs you to configure yum direct to the already existing file server.)
